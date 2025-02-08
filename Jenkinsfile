@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/icemann8286/s3bucketwithdarrinjenkins' 
+                git branch: 'main', url: 'https://github.com/Rbilli51614/s3bucketwithdarrinjenkins.git' 
             }
         }
         stage('Initialize Terraform') {
